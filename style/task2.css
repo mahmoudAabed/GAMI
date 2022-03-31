@@ -1,0 +1,533 @@
+                        @media (min-width: 992px) {
+                            .navbar-expand-lg .navbar-collapse {
+                                display: flex !important;
+                                flex-basis: auto;
+                                margin-left: 124px;
+                                width: min-content;
+                            }
+                        }
+                        
+                        .home-page {
+                            background-image: url("../image/home-page.png");
+                            height: 100vh;
+                            width: 100%;
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            position: relative;
+                            filter: brightness(0.7);
+                        }
+                        
+                        .navbar {
+                            position: absolute;
+                            z-index: 2;
+                            width: 100%;
+                            font-size: 14px;
+                        }
+                        
+                        .navbar a img {
+                            width: 40px;
+                            height: 40px;
+                        }
+                        
+                        .navbar a {
+                            text-decoration: none;
+                            color: #ffffff;
+                        }
+                        
+                        .navbar-light .navbar-nav .nav-link.active,
+                        .navbar-light .navbar-nav .show>.nav-link,
+                        .navbar-light .navbar-nav .nav-link {
+                            color: #fff;
+                        }
+                        
+                        .navbar img {
+                            margin-top: 10px;
+                        }
+                        
+                        .rotate {
+                            cursor: pointer;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            position: fixed;
+                            height: 150px;
+                            width: 50px;
+                            top: 50%;
+                            left: 0;
+                            color: white;
+                            background: #1d7956;
+                            writing-mode: vertical-rl;
+                        }
+                        
+                        .contant {
+                            position: relative;
+                            z-index: 2;
+                            top: 300px;
+                        }
+                        
+                        .contant p,
+                        .contant h1 {
+                            color: #fff;
+                            padding-top: 23px;
+                        }
+                        
+                        .contant button {
+                            color: #fff;
+                            background: none;
+                            font-size: 18px;
+                            width: 190px;
+                            height: 48px;
+                            border: solid 1px #fff;
+                        }
+                        
+                        .contant button:hover {
+                            transition: 2s ease-in-out;
+                            background-color: #ffffff;
+                            color: black;
+                        }
+                        /* end siction home */
+                        
+                        .info {
+                            background-color: #f6f6f6
+                        }
+                        
+                        .info {
+                            background-image: url("https://cdn.zeplin.io/6017cc25087e45128ecbc251/assets/70f7dbaa-c235-4c17-bb9a-2549c0f03a87.svg");
+                            height: 100vh;
+                            width: 100%;
+                            background-size: auto;
+                            background-repeat: no-repeat;
+                        }
+                        
+                        .info_contant {
+                            display: inline;
+                            right: 0px;
+                            float: left;
+                            text-align: end;
+                            padding-top: 100px;
+                        }
+                        
+                        .x {
+                            display: inline;
+                            right: 0px;
+                        }
+                        
+                        .info_contant h6 {
+                            font-size: 32px;
+                            color: #1d7956;
+                            line-height: 43px;
+                            font-weight: 400;
+                            margin-top: 55.8px;
+                            margin-bottom: 30px;
+                        }
+                        
+                        .info_contant p {
+                            font-size: 18px;
+                            color: #787878;
+                            line-height: 24px;
+                            margin-bottom: 30px;
+                        }
+                        
+                        .info_contant button {
+                            background: none;
+                            color: rgb(229, 167, 106);
+                            border: 1px solid rgb(229, 167, 106);
+                            width: 170px;
+                            height: 48px;
+                            margin-top: 36.5px;
+                        }
+                        
+                        .info_contant button:hover {
+                            background-color: rgb(229, 167, 106);
+                            color: #fff;
+                            transition: 1s ease-in;
+                        }
+                        /* end siction info */
+                        
+                        .military_industries .box_military {
+                            margin-top: 34px;
+                            border: 1px solid #b6b6b6;
+                            margin-right: 16px;
+                            height: 325px;
+                            justify-content: center;
+                            justify-items: center;
+                            background-color: #ffffff;
+                        }
+                        
+                        .military_industries h1 {
+                            color: #1d7956;
+                            font-size: 32px;
+                            margin-bottom: 31px;
+                        }
+                        
+                        .military_industries span,
+                        .achievements span {
+                            color: #787878;
+                            font-size: 18px;
+                        }
+                        
+                        .military_industries .box_military img:first-child {
+                            margin-top: 91px;
+                        }
+                        
+                        .military_industries .box_military h4 {
+                            margin-top: 13px;
+                            font-size: 24px;
+                            color: #00323b;
+                        }
+                        
+                        .military_industries .box_military img:last-child {
+                            margin-top: 29px;
+                        }
+                        
+                        .military_industries {
+                            background: linear-gradient(180deg, #f6f6f6 70%, white 30%);
+                            margin-bottom: 100px;
+                        }
+                        /* start achievements */
+                        
+                        .achievements {
+                            background-image: url("../image/achievements_back.png");
+                            background-repeat: no-repeat;
+                            background-position-x: center;
+                        }
+                        
+                        .achievements .row h2 {
+                            margin-top: 30px;
+                            color: #00323b;
+                            font-size: 48px;
+                        }
+                        
+                        .achievements h1,
+                        .developed h1 {
+                            color: #1d7956;
+                            font-size: 32px;
+                            margin-bottom: 30px;
+                        }
+                        
+                        .achievements .row .line {
+                            width: 32px;
+                            height: 5;
+                            margin: 13px 5px 13px 130px;
+                            color: #aa9b64;
+                        }
+                        
+                        h5 {
+                            color: #00323b;
+                            font-size: 24px;
+                        }
+                        
+                        .dabbab-img {
+                            margin-left: -110px;
+                            margin-top: 400px;
+                        }
+                        
+                        .achievements h3 {
+                            color: #1d7956;
+                            font-size: 32px;
+                            text-align: end;
+                            font-size: 32px;
+                        }
+                        
+                        .achievements p {
+                            text-align: end;
+                            color: #787878;
+                            font-size: 18px;
+                            line-height: 24px;
+                            margin-top: 26.5px;
+                        }
+                        
+                        .achievements-info {
+                            margin-top: 520px;
+                        }
+                        
+                        .achievements-info button {
+                            color: #bfb48b;
+                            font-size: 18px;
+                            background: none;
+                            border: 1px solid #bfb48b;
+                            float: right;
+                            width: 170px;
+                            height: 48px;
+                            margin-top: 33px;
+                        }
+                        
+                        .achievements-info button:hover {
+                            background-color: #aa9b64;
+                            color: #fff;
+                            transition: 1s ease-in-out;
+                        }
+                        /*developed*/
+                        
+                        .developed p {
+                            color: #787878;
+                            font-size: 18px;
+                            line-height: 24px;
+                            margin-bottom: 34px;
+                        }
+                        
+                        .developed .developed-box {
+                            background-color: #1d7956;
+                            margin-top: 34px;
+                            border: 1px solid #b6b6b6;
+                            background-color: #ffffff;
+                        }
+                        
+                        .developed .developed-box img {
+                            width: 100%;
+                        }
+                        
+                        .developed .developed-box h5 {
+                            text-align: end;
+                            margin-right: 23px;
+                            margin-top: 30px;
+                            font-size: 24px;
+                            color: #00323b;
+                        }
+                        
+                        .developed .developed-box h6 {
+                            text-align: end;
+                            margin-right: 23px;
+                            margin-top: 30px;
+                            margin-bottom: 15px;
+                            color: #1d7956;
+                            font-size: 18px;
+                        }
+                        
+                        .developed button {
+                            color: #bfb48b;
+                            font-size: 18px;
+                            background: none;
+                            border: 1px solid #bfb48b;
+                            width: 245px;
+                            height: 48px;
+                            margin-top: 33px;
+                        }
+                        
+                        .developed button:hover {
+                            background-color: #aa9b64;
+                            color: #fff;
+                            transition: 1s ease-in-out;
+                        }
+                        /* Latest news */
+                        
+                        .Latest_news {
+                            background: linear-gradient(180deg, #ffffff 60%, #f6f6f6 40%);
+                        }
+                        
+                        .Latest_news .box_Latest,
+                        .box_Latest1 {
+                            height: 580px;
+                            background-color: #ffffff;
+                        }
+                        
+                        .Latest_news .Latst {
+                            background-image: url("../image/Latest_news\ back.png");
+                            background-repeat: no-repeat;
+                            background-size: 100% 50%;
+                            background-position: bottom;
+                        }
+                        
+                        .Latest_news h1 {
+                            color: #1d7956;
+                            font-size: 32px;
+                            margin-bottom: 33px;
+                            margin-top: 112px;
+                        }
+                        
+                        .Latest_news button {
+                            color: #c1b68f;
+                            font-size: 18px;
+                            background: none;
+                            border: 1px solid #c1b68f;
+                            width: 245px;
+                            height: 48px;
+                            margin-top: 33px;
+                            margin-bottom: 65px;
+                        }
+                        
+                        .Latest_news button:hover {
+                            background-color: #aa9b64;
+                            color: #fff;
+                            transition: 1s ease-in-out;
+                        }
+                        /* contact */
+                        
+                        .contact {
+                            height: 108px;
+                        }
+                        
+                        .contact .row .col-md-7 button:first-child {
+                            float: right;
+                            margin-top: 30px;
+                            height: 48px;
+                            width: 256px;
+                            border: 1px solid #aa9b64;
+                            color: #aa9b64;
+                            background-color: #fff;
+                        }
+                        
+                        .contact .row .col-md-7 button:last-child {
+                            float: right;
+                            margin-top: 30px;
+                            height: 48px;
+                            width: 137px;
+                            color: #fff;
+                            background-color: #aa9b64;
+                            border: 1px solid #aa9b64;
+                        }
+                        
+                        .contact .row .col-md-5 div {
+                            color: #00323b;
+                            font-size: 24px;
+                            margin-top: 30px;
+                            margin-right: 38px;
+                        }
+                        
+                        .footer .container .row .col-md-6:first-child img {
+                            margin-right: 32px;
+                            margin-bottom: 30px;
+                        }
+                        
+                        .footer .container .row .col-md-6:last-child img {
+                            margin-left: 32px;
+                        }
+                        
+                        .footer {
+                            margin-top: 65px;
+                        }
+                        
+                        .footer ul li {
+                            margin-left: 19px;
+                            cursor: pointer;
+                            color: #787878;
+                            font-size: 14px;
+                        }
+                        
+                        .footer ul li:hover {
+                            margin-left: 19px;
+                            cursor: pointer;
+                            color: #1d7956;
+                            font-size: 20px;
+                            transition: 1s ease-in-out;
+                        }
+                        
+                        .copyright {
+                            background-color: #f6f6f6;
+                            font-size: 14px;
+                            color: #787878;
+                            padding-top: 22px;
+                            padding-bottom: 23px;
+                        }
+                        
+                        @media (max-width: 991.98px) {
+                            .img-info {
+                                display: none;
+                            }
+                            .achievements {
+                                margin-bottom: 80px;
+                            }
+                            .link img {
+                                display: none;
+                            }
+                            .link {
+                                float: right;
+                                text-align: end;
+                            }
+                        }
+                        
+                        @media (max-width: 767.98px) {
+                            .dabbab-img {
+                                display: none;
+                            }
+                            .achievements-info {
+                                margin-top: 20px;
+                            }
+                            .rotate {
+                                display: none;
+                            }
+                        }
+                        
+                        .box_Latest .row .col-sm-8 h5,
+                        .box_Latest1 .row .col-sm-8 h5 {
+                            font-size: 14px;
+                            color: #9e9e9e;
+                        }
+                        
+                        .box_Latest h6,
+                        .box_Latest1 h6 {
+                            font-size: 14px;
+                            color: #787878;
+                            margin-top: 18px;
+                        }
+                        
+                        .box_Latest p,
+                        .box_Latest1 p {
+                            font-size: 14px;
+                            color: #787878;
+                            float: right;
+                        }
+                        
+                        .box_Latest .col-sm-6,
+                        .box_Latest1 .col-sm-6 {
+                            font-size: 12px;
+                            color: #9e9e9e;
+                            margin-top: 10px;
+                        }
+                        
+                        .box_Latest .box_Latest_img {
+                            width: 100%;
+                        }
+                        
+                        .box_Latest .col-4 {
+                            color: #aa9b64;
+                            font-size: 14px;
+                        }
+                        
+                        .box_Latest .box_Latest_info {
+                            font-size: 24px;
+                            color: #00323b;
+                            margin-top: 18px;
+                            margin-bottom: 55px;
+                        }
+                        
+                        .box_Latest .plus {
+                            color: #1d7956;
+                            font-size: 18px;
+                            margin-bottom: 14px;
+                        }
+                        
+                        .box_Latest1 {
+                            overflow-y: scroll;
+                        }
+                        
+                        @media (max-width: 767.98px) {
+                            .contact {
+                                height: 200px;
+                            }
+                        }
+                        
+                        @media (max-width: 1053px) {
+                            .navbar-light .navbar-nav .nav-link.active,
+                            .navbar-light .navbar-nav .show>.nav-link,
+                            .navbar-light .navbar-nav .nav-link {
+                                margin-right: 0px;
+                            }
+                        }
+                        
+                        .img-info {
+                            padding-left: 0px;
+                        }
+                        
+                        .navbar .x a {
+                            text-decoration: none;
+                            color: #ffffff;
+                            margin-left: 10px;
+                        }
+                        
+                        .arrow {
+                            color: #fff;
+                            position: relative;
+                            bottom: -40px;
+                            font-size: large;
+                        }
